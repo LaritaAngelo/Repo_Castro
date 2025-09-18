@@ -32,7 +32,7 @@ body {
 	width: 48px;
 	height: 48px;
 	border-radius: 50%;
-	border: 2px solid #bf0f75;
+	border: 2px solid #bf0f0f;
 	box-shadow: 0 2px 8px rgba(0,0,0,0.12);
 	object-fit: cover;
 }
@@ -65,11 +65,11 @@ nav a {
 
 nav a:hover {
 	color: #ff9800;
-	border-bottom: 2px solid #bf0f75;
+	border-bottom: 2px solid #bf0f0f;
 }
 
 .hero-section {
-	background: linear-gradient(120deg, #2d3e50 60%, #bf0f75 100%);
+	background: linear-gradient(120deg, #2d3e50 60%, #bf0f0f 100%);
 	color: #fff;
 	padding: 4rem 0 3rem 0;
 	text-align: center;
@@ -104,7 +104,7 @@ nav a:hover {
 }
 
 .cta-btn {
-	background: #bf0f75;
+	background: #bf0f0f;
 	color: #fff;
 	padding: 0.8rem 2.2rem;
 	border: none;
@@ -118,7 +118,7 @@ nav a:hover {
 }
 
 .cta-btn:hover {
-	background: #bf0f75;
+	background: #bf0f0f;
 	transform: translateY(-2px) scale(1.04);
 }
 
@@ -136,7 +136,7 @@ section {
 }
 
 h2 {
-	color: #bf0f75;
+	color: #bf0f0f;
 	margin-bottom: 1.2rem;
 	font-size: 2rem;
 	font-weight: 700;
@@ -166,7 +166,7 @@ h2 {
 	color: #2d3e50;
 	margin: 1.2rem 0 0.5rem 0;
 	font-size: 1.1rem;
-	border-left: 4px solid #bf0f75;
+	border-left: 4px solid #bf0f0f;
 	padding-left: 1rem;
 }
 
@@ -183,7 +183,7 @@ h2 {
 }
 
 .social-links a:hover {
-	color: #bf0f75;
+	color: #bf0f0f;
 	transform: scale(1.15);
 }
 
@@ -239,7 +239,7 @@ h2 {
 .project-link {
 	display: inline-block;
 	margin-top: 0.7rem;
-	color: #bf0f75;
+	color: #bf0f0f;
 	font-weight: 600;
 	text-decoration: none;
 	transition: color 0.2s;
@@ -259,7 +259,7 @@ h2 {
 }
 
 .skills-list li {
-	background: linear-gradient(90deg, #bf0f75 70%, #bf0f75 100%);
+	background: linear-gradient(90deg, #bf0f0f 70%, #bf0f0f 100%);
 	color: #fff;
 	padding: 0.6rem 1.3rem;
 	border-radius: 22px;
@@ -293,7 +293,7 @@ h2 {
 .gallery-img:hover {
 	transform: scale(1.045);
 	box-shadow: 0 8px 28px rgba(44,62,80,0.18);
-	border-color: #bf0f75;
+	border-color: #bf0f0f;
 }
 
 /* Contact Form */
@@ -319,11 +319,11 @@ h2 {
 .contact-form input:focus,
 .contact-form textarea:focus {
 	outline: none;
-	border-color: #bf0f75;
+	border-color: #bf0f0f;
 }
 
 .contact-form button {
-	background: #bf0f75;
+	background: #bf0f0f;
 	color: #fff;
 	padding: 0.7rem 1.5rem;
 	border: none;
@@ -335,7 +335,7 @@ h2 {
 }
 
 .contact-form button:hover {
-	background: #bf0f75;
+	background: #bf0f0f;
 	transform: translateY(-2px) scale(1.04);
 }
 
@@ -345,7 +345,7 @@ h2 {
 }
 
 .contact-info i {
-	color: #bf0f75;
+	color: #bf0f0f;
 	margin-right: 0.5rem;
 }
 
@@ -404,4 +404,5 @@ footer {
 	.gallery-img {
 		height: 120px;
 	}
+
 }
